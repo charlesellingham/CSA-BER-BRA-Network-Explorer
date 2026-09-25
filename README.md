@@ -4,7 +4,11 @@ An ongoing research and digital mapping project exploring the network of Communi
 
 ## The Project
 
-The aim of the project is to better understand the structure of the regional CSA network: who is connected to whom, what types of relationships exist, and which actors appear to occupy particularly central or connecting positions. The network can be explored through the interactive **CSA BER-BRA Network Explorer**, which allows users to filter actors and relationships, select and hide actors, and explore individual connections.
+This social network analysis project was developed through the Berlin University Alliance’s X-Student Research Group “How can a box of vegetables weave places together? Rural-Urban food networks in the Berlin-Brandenburg area,” led by Federica Ammaturo and supported by Chen Gao from Geography at Humboldt-Universität in Berlin. X-Student Research Groups aim to give students the opportunity to participate in collaborative research projects and develop their own research questions and methods within Berlin’s university research environment.
+
+The research group focuses on Community Supported Agriculture (CSA), or Solidarische Landwirtschaft (SoLaWi) in German, investigating how rural-urban food networks connect people, places and resources through alternative, place-based food value chains. The wider project examines how these networks affect socio-economic and spatial development and what they can reveal about regional development and broader socio-ecological transformations. The group combines qualitative and quantitative research, including surveys, field visits and workshops with network members and experts, with the intention of integrating the results into a story map.
+
+The CSA BER-BRA Network Explorer forms part of this broader research process, developing the network-mapping and quantitative analysis component of the project while also experimenting with ways of making the research data accessible through an interactive digital tool.
 
 ## Developing the Methodology
 
