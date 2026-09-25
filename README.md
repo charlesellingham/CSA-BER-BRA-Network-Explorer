@@ -1,6 +1,10 @@
 # CSA BER-BRA Network Explorer
 
-An ongoing research and digital mapping project exploring the network of Community Supported Agriculture (CSA) actors across Berlin-Brandenburg. The project combines qualitative research, network mapping, quantitative analysis and interactive data visualisation to explore how CSA initiatives, organisations, government actors, schools, depots and other institutions are connected across the region.
+### Mapping rural–urban food networks across Berlin-Brandenburg
+
+[**Launch Interactive Explorer →**](https://charlesellingham.github.io/CSA-BER-BRA-Network-Explorer/)
+
+![CSA BER-BRA Network Explorer](./SoLaWi%20Network%20Actors_A3.jpg)
 
 ## The Project
 
@@ -48,6 +52,38 @@ The Explorer is intended as both a research tool and a way of communicating the 
 - Explore an actor's documented connections
 
 This process also became an important part of the methodological development of the project, as I moved from using an existing analytical tool towards building a customised digital research tool around the specific needs of the dataset and research questions.
+
+## Geographical Distribution and QGIS Analysis
+
+Alongside the network analysis, I mapped the geographical distribution of all identified actors using **QGIS**. Each actor was geocoded and placed within the Berlin-Brandenburg region, allowing the network to be examined spatially as well as relationally.
+
+The maps provide a geographical perspective on the network, showing where CSA initiatives, organisations, government actors, schools, depots and other actors are located and how the network extends between urban and rural areas.
+
+This spatial analysis complements the network analysis by highlighting the relationship between **where actors are located and how they are connected**. It also provides a basis for exploring questions around rural-urban connections, geographical concentration and the spatial reach of the CSA network.
+
+### Geographical Distribution
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>All Actors</strong><br>
+      <img src="./images/A3_SoLaWi_Network_All.jpg" width="100%">
+    </td>
+    <td align="center">
+      <strong>Berlin-Brandenburg</strong><br>
+      <img src="./images/A3_SoLaWi_Network_Berlin_Brandenburg.jpg" width="100%">
+    </td>
+    <td align="center">
+      <strong>Havelland</strong><br>
+      <img src="./images/A3_SoLaWi_Network_Havelland.jpg" width="100%">
+    </td>
+  </tr>
+</table>
+
+Downloads:
+- [View all mapped actors – Europe](./A3_SoLaWi_Network_All.pdf)
+- [View mapped actors – Berlin-Brandenburg](./A3_SoLaWi_Network_Berlin_Brandenburg.pdf)
+- [View mapped actors – Havelland](./A3_SoLaWi_Network_Havelland.pdf)
 
 ## What I Have Learned
 
