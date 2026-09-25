@@ -62,19 +62,18 @@ The maps provide a geographical perspective on the network, showing where CSA in
 This spatial analysis complements the network analysis by highlighting the relationship between **where actors are located and how they are connected**. It also provides a basis for exploring questions around rural-urban connections, geographical concentration and the spatial reach of the CSA network.
 
 ### Geographical Distribution
-
 <table>
   <tr>
     <td align="center">
-      <strong>All Actors</strong><br>
+      <strong>All Actors</strong><br><br>
       <img src="./images/A3_SoLaWi_Network_All.jpg" width="100%">
     </td>
     <td align="center">
-      <strong>Berlin-Brandenburg</strong><br>
+      <strong>Berlin-Brandenburg</strong><br><br>
       <img src="./images/A3_SoLaWi_Network_Berlin_Brandenburg.jpg" width="100%">
     </td>
     <td align="center">
-      <strong>Havelland</strong><br>
+      <strong>Havelland</strong><br><br>
       <img src="./images/A3_SoLaWi_Network_Havelland.jpg" width="100%">
     </td>
   </tr>
