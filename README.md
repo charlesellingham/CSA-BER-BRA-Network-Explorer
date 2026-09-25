@@ -18,9 +18,9 @@ As the network developed, a structured dataset of actors and relationships was b
 
 The starting-point methodology is also important when interpreting the results. Because the network was initially built outward from BAUERei, it is expected that BAUERei will appear particularly central within the resulting network.
 
-## Network Analysis
+## Network Analysis and Developing the Explorer
 
-I used basic network analysis to explore the structure of the network, including:
+I used **Gephi** to conduct an initial quantitative analysis of the network and explore its structure. This included measures such as:
 
 - Degree
 - Betweenness centrality
@@ -28,15 +28,13 @@ I used basic network analysis to explore the structure of the network, including
 - Eigenvector centrality
 - PageRank
 
-The analysis currently indicates that **BAUERei Potsdam-Grube** and **BioRegion Havelland** occupy particularly prominent positions within the mapped network.
-
-Rather than treating these measures as definitive rankings, they are being used to identify patterns that can be explored through further qualitative and geographical research.
+The analysis indicated that **BAUERei Potsdam-Grube** and **BioRegion Havelland** occupy particularly prominent positions within the mapped network. Rather than treating these measures as definitive rankings, I use them to identify patterns that can be explored through further qualitative and geographical research.
 
 ## Interactive Network Explorer
 
-This bespoke web-based Explorer was coded alongside the research as a way of making the network easier to explore and communicate.
+While Gephi was useful for calculating these network measures and initially visualising the relationships, I found its visualisation and interaction options limiting for the way I wanted to explore and communicate the network. I therefore decided to develop my own interactive network visualisation using **JavaScript and Cytoscape.js**. Building the Explorer myself allowed me to move beyond a static network visualisation and develop features specifically suited to the research, including filtering by actor and relationship type, selecting network neighbourhoods, hiding actors, exploring individual connections, and controlling how relationships and labels are displayed.
 
-It currently allows users to:
+The Explorer is intended as both a research tool and a way of communicating the network to people who may not be familiar with network analysis. It currently allows users to:
 
 - Explore individual actors and their connections
 - Filter actors by type
@@ -49,7 +47,7 @@ It currently allows users to:
 - View information about individual actors
 - Explore an actor's documented connections
 
-The Explorer is intended as both a research tool and a way of communicating the network to people who may not be familiar with network analysis.
+This process also became an important part of the methodological development of the project, as I moved from using an existing analytical tool towards building a customised digital research tool around the specific needs of the dataset and research questions.
 
 ## What I Have Learned
 
