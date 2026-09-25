@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioRegion Havelland Network Explorer</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+<aside class="sidebar">
+    <h3>Display</h3>
+    <div id="display-options">
+        <label>
+            <input type="checkbox" id="toggle-curves" checked>
+            Curved Connections
+        </label>
+        <label>
+                 <input type="checkbox" id="toggle-labels" checked>
+                Show Names
+            </label>
+    </div>
+    <hr>
+    <h3>View</h3>
+    <button id="reset-view">
+        Reset Hidden Nodes
+        (<span id="hidden-count">0</span>)
+    </button>
+    <hr>
+    <h3>Actor Types</h3>
+    <div id="actor-filters">
+        <!-- Generated automatically -->
+    </div>
+    <div class="button-row">
+        <button id="actors-select-all">Select All</button>
+        <button id="actors-clear-all">Clear All</button>
+    </div>
+    <hr>
+    <h3>Relationship Types</h3>
+    <div id="edge-filters">
+        <!-- Generated automatically -->
+    </div>
+    <div class="button-row">
+        <button id="edges-select-all">Select All</button>
+        <button id="edges-clear-all">Clear All</button>
+    </div>
+</aside>
+<main id="network">
+</main>
+<aside class="info">
+    <h2>Actor Information</h2>
+    <h3 id="node-name">Click a node</h3>
+    <p id="node-type" class="subtitle">-</p>
+    <h4>Role</h4>
+    <p id="node-role">-</p>
+    <!-- ==========================================
+    Description
+    ==========================================
+    <h4>Description</h4>
+    <p id="node-description">-</p>
+    -->
+    <!-- ==========================================
+    Location
+    ==========================================
+    <h4>Location</h4>
+    <p id="node-location">-</p>
+    -->
+    <h4>Connections</h4>
+    <div id="node-connections">
+        -
+    </div>
+</aside>
+</div>
+<script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/network.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
