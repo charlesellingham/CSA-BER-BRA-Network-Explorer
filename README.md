@@ -20,6 +20,8 @@ The wider project examines how these networks relate to socio-economic and spati
 
 The CSA BER-BRA Network Explorer forms part of this broader research process, developing the social network-mapping and quantitative analysis component of the project while also experimenting with ways of making the research data accessible through an interactive digital tool.
 
+If you would like to learn more about the project, discuss the methodology, collaborate, or suggest features, please [contact me via LinkedIn](https://www.linkedin.com/in/charles-ellingham/) [preferred], or at [charles.ellingham@fu-berlin.de](mailto:charles.ellingham@fu-berlin.de).
+
 ### Developing the Methodology
 
 The network was initially constructed using a snowball-style approach. It began with [**BAUERei Potsdam-Grube**](https://bauerei-potsdam-grube.de) as a starting actor and progressively identified additional actors through their documented relationships using publicly available data and desktop research methods.
