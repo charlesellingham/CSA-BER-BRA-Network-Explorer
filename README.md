@@ -6,9 +6,11 @@
 
 [**Quick Start Guide →**](./CSA%20BER-BRA%20Network%20Explorer%20Quick%20Start%20Guide.pdf)
 
+[**Cite this project →**](./CITATION.cff)
+
 ![CSA BER-BRA Network Explorer](./SoLaWi%20Network%20Actors_A3.jpg)
 
-## The Project
+### The Project
 
 I developed this social network analysis project through the [Berlin University Alliance](https://www.berlin-university-alliance.de/en/index.html)’s X-Student Research Group “[How can a box of vegetables weave places together? Rural-Urban food networks in the Berlin-Brandenburg area](https://www.berlin-university-alliance.de/en/commitments/teaching-learning/sturop/research-groups/archiv/sose26/How-can-a-box-of-vegetables-weave-places-together_/index.html)” led by [Federica Ammaturo](https://www.linkedin.com/in/federica-ammaturo-2416061b0/) and supported by [Chen Gao](https://www.linkedin.com/in/chen-gao-733a60181/) at Humboldt-Universität in Berlin. X-Student Research Groups aim to give students the opportunity to participate in collaborative research projects and develop their own research questions and methods within Berlin’s university research environment.
 
@@ -18,7 +20,7 @@ The wider project examines how these networks relate to socio-economic and spati
 
 The CSA BER-BRA Network Explorer forms part of this broader research process, developing the social network-mapping and quantitative analysis component of the project while also experimenting with ways of making the research data accessible through an interactive digital tool.
 
-## Developing the Methodology
+### Developing the Methodology
 
 The network was initially constructed using a snowball-style approach. It began with [**BAUERei Potsdam-Grube**](https://bauerei-potsdam-grube.de) as a starting actor and progressively identified additional actors through their documented relationships using publicly available data and desktop research methods.
 
@@ -26,7 +28,7 @@ As the network developed, a structured dataset of actors and relationships was b
 
 The starting-point methodology is also important when interpreting the results. Because the network was initially built outward from BAUERei, it is expected that BAUERei will appear particularly central within the resulting network.
 
-## Network Analysis and Developing the Explorer
+### Network Analysis and Developing the Explorer
 
 I used [**Gephi**](https://gephi.org) to conduct an initial quantitative analysis of the network and explore its structure. This included measures such as:
 
@@ -38,7 +40,7 @@ I used [**Gephi**](https://gephi.org) to conduct an initial quantitative analysi
 
 The analysis indicated that [**BAUERei Potsdam-Grube**](https://bauerei-potsdam-grube.de) and [**BioRegion Havelland**](https://www.bioregion-havelland.de) occupy particularly prominent positions within the mapped network. Rather than treating these measures as definitive rankings, I use them to identify patterns that can be explored through further qualitative and geographical research.
 
-## Interactive Network Explorer
+### Interactive Network Explorer
 
 While Gephi was useful for calculating these network measures and initially visualising the relationships, I found its visualisation and interaction options limiting for the way I wanted to explore and communicate the network. I therefore decided to develop my own interactive network visualisation using [**JavaScript** ](https://www.javascript.com)and [**Cytoscape.js**](http://cytoscape.org). Building the Explorer myself allowed me to move beyond a static network visualisation and develop features specifically suited to the research, including filtering by actor and relationship type, selecting network neighbourhoods, hiding actors, exploring individual connections, and controlling how relationships and labels are displayed.
 
@@ -57,7 +59,7 @@ The Explorer is intended as both a research tool and a way of communicating the 
 
 This process also became an important part of the methodological development of the project, as I moved from using an existing analytical tool towards building a customised digital research tool around the specific needs of the dataset and research questions.
 
-## Geographical Distribution and QGIS Analysis
+### Geographical Distribution and QGIS Analysis
 
 Alongside the network analysis, I mapped the geographical distribution of all identified actors using [**QGIS**](https://qgis.org). Each actor was geocoded and placed within the Berlin-Brandenburg region, allowing the network to be examined spatially as well as relationally.
 
@@ -88,7 +90,7 @@ Downloads:
 - [View mapped actors – Berlin-Brandenburg](./A3_SoLaWi_Network_Berlin_Brandenburg.pdf)
 - [View mapped actors – Havelland](./A3_SoLaWi_Network_Havelland.pdf)
 
-## Learnings
+### Learnings
 
 This project has developed from a relatively simple network mapping exercise into a broader exploration of digital research methods. Building the Explorer has also required me to think more carefully about how research data is structured and visualised, how methodological decisions affect quantitative results, and how complex network information can be communicated through an accessible interface. The technical development is therefore closely connected to the methodological development of the research itself.
 
@@ -105,7 +107,7 @@ Through the process I have worked with:
 - Interactive data visualisation techniques
 - GitHub and GitHub Pages
 
-## Current Limitations
+### Current Limitations
 
 The network represents documented relationships identified through the current research process and should not be interpreted as a complete representation of the regional CSA system in the Berlin-Brandenburg area. The snowball approach means that actors connected to the initial starting point are more likely to have been identified, while less-connected or more distant actors may be underrepresented. The current analysis is also deliberately exploratory and top-level. More extensive community detection, longitudinal analysis, geographical analysis and additional data collection could provide a more detailed understanding of the network.
 
@@ -127,7 +129,7 @@ The CSA BER-BRA Network Explorer is an evolving prototype and currently has seve
 
 The explorer may be updated with additional features and expanded network data as the project develops. 
 
-## Future Development
+### Future Development
 
 Future iterations may expand the dataset, refine the methodology and introduce additional network and spatial analysis.
 
