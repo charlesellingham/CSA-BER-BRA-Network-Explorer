@@ -10,11 +10,13 @@
 
 ## The Project
 
-This social network analysis project was developed through the Berlin University Alliance’s X-Student Research Group “How can a box of vegetables weave places together? Rural-Urban food networks in the Berlin-Brandenburg area,” led by Federica Ammaturo and supported by Chen Gao from Geography at Humboldt-Universität in Berlin. X-Student Research Groups aim to give students the opportunity to participate in collaborative research projects and develop their own research questions and methods within Berlin’s university research environment.
+I developed this social network analysis project through the [Berlin University Alliance](https://www.berlin-university-alliance.de/en/index.html)’s X-Student Research Group “[How can a box of vegetables weave places together? Rural-Urban food networks in the Berlin-Brandenburg area](https://www.berlin-university-alliance.de/en/commitments/teaching-learning/sturop/research-groups/archiv/sose26/How-can-a-box-of-vegetables-weave-places-together_/index.html)” led by [Federica Ammaturo](https://www.linkedin.com/in/federica-ammaturo-2416061b0/) and supported by [Chen Gao](https://www.linkedin.com/in/chen-gao-733a60181/) at Humboldt-Universität in Berlin. X-Student Research Groups aim to give students the opportunity to participate in collaborative research projects and develop their own research questions and methods within Berlin’s university research environment.
 
-The research group focuses on Community Supported Agriculture (CSA), or Solidarische Landwirtschaft (SoLaWi) in German, investigating how rural-urban food networks connect people, places and resources through alternative, place-based food value chains. The wider project examines how these networks affect socio-economic and spatial development and what they can reveal about regional development and broader socio-ecological transformations. The group combines qualitative and quantitative research, including surveys, field visits and workshops with network members and experts, with the intention of integrating the results into a story map.
+The research group focuses on Community Supported Agriculture (CSA), or Solidarische Landwirtschaft (SoLaWi) in German, investigating how rural-urban food networks connect people, places and resources through alternative, place-based food value chains. CSA aims to connect consumers directly with local agricultural producers. Members typically contribute financially to a farm or growing operation and, in return, receive a share of the harvest throughout the season. Beyond food production and distribution, SoLaWi can create wider relationships between producers, consumers, schools, organisations and regional institutions.
 
-The CSA BER-BRA Network Explorer forms part of this broader research process, developing the network-mapping and quantitative analysis component of the project while also experimenting with ways of making the research data accessible through an interactive digital tool.
+The wider project examines how these networks affect socio-economic and spatial development and what they can reveal about regional development and broader socio-ecological transformations. The group combines qualitative and quantitative research, including surveys, field visits and a participatory workshop with network members and experts, with the intention of integrating the results into a cohesive output.
+
+The CSA BER-BRA Network Explorer forms part of this broader research process, developing the social network-mapping and quantitative analysis component of the project while also experimenting with ways of making the research data accessible through an interactive digital tool.
 
 ## Developing the Methodology
 
@@ -121,3 +123,13 @@ Potential developments include:
 - Improved interactive filtering and visualisation
 
 The project is intentionally being developed incrementally, with the methodology, dataset and digital tool informing one another as the research progresses.
+
+## Acknowledgements
+
+This project was developed as part of the [Berlin University Alliance X-Student Research Group](https://www.berlin-university-alliance.de/en/commitments/teaching-learning/sturop/research-groups/archiv/sose26/How-can-a-box-of-vegetables-weave-places-together_/index.html), “How can a box of vegetables weave places together? Rural-Urban food networks in the Berlin-Brandenburg area.”
+
+I would like to thank [Federica Ammaturo](https://www.linkedin.com/in/federica-ammaturo-2416061b0/) for leading the research group and for her guidance and support throughout the project, and Chen Gao for his support and contributions to the research process.
+
+I am also grateful to the [Berlin University Alliance](https://www.berlin-university-alliance.de/en/index.html) for providing the funding and opportunity to participate in collaborative research and develop this project within an interdisciplinary research environment.
+
+Finally, thank you to the other students in the X-Student Research Group for their ideas, discussions, feedback and contributions to the wider project. The network explorer builds on the collective research and knowledge developed through the group.
