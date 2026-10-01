@@ -4,6 +4,8 @@
 
 [**Launch Interactive Explorer →**](https://charlesellingham.github.io/CSA-BER-BRA-Network-Explorer/)
 
+[**Quick Start Guide →**](./CSA%20BER-BRA%20Network%20Explorer%20Quick%20Start%20Guide.pdf)
+
 ![CSA BER-BRA Network Explorer](./SoLaWi%20Network%20Actors_A3.jpg)
 
 ## The Project
@@ -84,7 +86,7 @@ Downloads:
 - [View mapped actors – Berlin-Brandenburg](./A3_SoLaWi_Network_Berlin_Brandenburg.pdf)
 - [View mapped actors – Havelland](./A3_SoLaWi_Network_Havelland.pdf)
 
-## What I Have Learned
+## Learnings
 
 This project has developed from a relatively simple network mapping exercise into a broader exploration of digital research methods. Building the Explorer has also required me to think more carefully about how research data is structured, how methodological decisions affect quantitative results, and how complex network information can be communicated through an accessible interface. The technical development is therefore closely connected to the methodological development of the research itself.
 
