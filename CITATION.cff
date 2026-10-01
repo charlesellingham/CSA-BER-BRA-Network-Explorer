@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "CSA BER-BRA Network Explorer"
+message: "If you use this software, data, or analysis in your research, please cite this project."
+type: software
+authors:
+  - family-names: "Ellingham"
+    given-names: "Charles"
+    email: "charlietellingham@gmail.com"
+repository-code: "https://github.com/charlesellingham/CSA-BER-BRA-Network-Explorer"
+url: "https://charlesellingham.github.io/CSA-BER-BRA-Network-Explorer/"
+version: "1.0.0"
+date-released: "2026-10-01"
+abstract: >
+  An interactive network explorer mapping documented relationships between
+  Community Supported Agriculture (CSA) and related actors across
+  Berlin-Brandenburg, developed as part of the Berlin University Alliance
+  X-Student Research Group "How can a box of vegetables weave places together?
+  Rural-Urban food networks in the Berlin-Brandenburg area."
+keywords:
+  - Community Supported Agriculture
+  - Solidarische Landwirtschaft
+  - CSA
+  - SoLaWi
+  - network analysis
+  - social network analysis
+  - GIS
+  - Berlin
+  - Brandenburg
+  - rural-urban food networks
