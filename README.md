@@ -20,7 +20,7 @@ The CSA BER-BRA Network Explorer forms part of this broader research process, de
 
 ## Developing the Methodology
 
-The network was initially constructed using a snowball-style approach. It began with **BAUERei Potsdam-Grube** as a starting actor and progressively identified additional actors through their documented relationships using publicly available data and desktop research methods.
+The network was initially constructed using a snowball-style approach. It began with [**BAUERei Potsdam-Grube**](https://bauerei-potsdam-grube.de) as a starting actor and progressively identified additional actors through their documented relationships using publicly available data and desktop research methods.
 
 As the network developed, a structured dataset of actors and relationships was built, categorising actors by type and relationships by category. This provided the basis for both the visual network and subsequent quantitative analysis. The current network is a simplified representation only and represents just the relationships identified through this research process rather than a complete representation of every CSA actor or relationship in Berlin-Brandenburg.
 
@@ -28,7 +28,7 @@ The starting-point methodology is also important when interpreting the results. 
 
 ## Network Analysis and Developing the Explorer
 
-I used **Gephi** to conduct an initial quantitative analysis of the network and explore its structure. This included measures such as:
+I used [**Gephi**](https://gephi.org) to conduct an initial quantitative analysis of the network and explore its structure. This included measures such as:
 
 - Degree
 - Betweenness centrality
@@ -36,11 +36,11 @@ I used **Gephi** to conduct an initial quantitative analysis of the network and 
 - Eigenvector centrality
 - PageRank
 
-The analysis indicated that **BAUERei Potsdam-Grube** and **BioRegion Havelland** occupy particularly prominent positions within the mapped network. Rather than treating these measures as definitive rankings, I use them to identify patterns that can be explored through further qualitative and geographical research.
+The analysis indicated that [**BAUERei Potsdam-Grube**](https://bauerei-potsdam-grube.de) and [**BioRegion Havelland**](https://www.bioregion-havelland.de) occupy particularly prominent positions within the mapped network. Rather than treating these measures as definitive rankings, I use them to identify patterns that can be explored through further qualitative and geographical research.
 
 ## Interactive Network Explorer
 
-While Gephi was useful for calculating these network measures and initially visualising the relationships, I found its visualisation and interaction options limiting for the way I wanted to explore and communicate the network. I therefore decided to develop my own interactive network visualisation using **JavaScript and Cytoscape.js**. Building the Explorer myself allowed me to move beyond a static network visualisation and develop features specifically suited to the research, including filtering by actor and relationship type, selecting network neighbourhoods, hiding actors, exploring individual connections, and controlling how relationships and labels are displayed.
+While Gephi was useful for calculating these network measures and initially visualising the relationships, I found its visualisation and interaction options limiting for the way I wanted to explore and communicate the network. I therefore decided to develop my own interactive network visualisation using [**JavaScript** ](https://www.javascript.com)and [**Cytoscape.js**](http://cytoscape.org). Building the Explorer myself allowed me to move beyond a static network visualisation and develop features specifically suited to the research, including filtering by actor and relationship type, selecting network neighbourhoods, hiding actors, exploring individual connections, and controlling how relationships and labels are displayed.
 
 The Explorer is intended as both a research tool and a way of communicating the network to people who may not be familiar with network analysis. It currently allows users to:
 
@@ -59,7 +59,7 @@ This process also became an important part of the methodological development of 
 
 ## Geographical Distribution and QGIS Analysis
 
-Alongside the network analysis, I mapped the geographical distribution of all identified actors using **QGIS**. Each actor was geocoded and placed within the Berlin-Brandenburg region, allowing the network to be examined spatially as well as relationally.
+Alongside the network analysis, I mapped the geographical distribution of all identified actors using [**QGIS**](https://qgis.org). Each actor was geocoded and placed within the Berlin-Brandenburg region, allowing the network to be examined spatially as well as relationally.
 
 The maps provide a geographical perspective on the network, showing where CSA initiatives, organisations, government actors, schools, depots and other actors are located and how the network extends between urban and rural areas.
 
@@ -90,7 +90,7 @@ Downloads:
 
 ## Learnings
 
-This project has developed from a relatively simple network mapping exercise into a broader exploration of digital research methods. Building the Explorer has also required me to think more carefully about how research data is structured, how methodological decisions affect quantitative results, and how complex network information can be communicated through an accessible interface. The technical development is therefore closely connected to the methodological development of the research itself.
+This project has developed from a relatively simple network mapping exercise into a broader exploration of digital research methods. Building the Explorer has also required me to think more carefully about how research data is structured and visualised, how methodological decisions affect quantitative results, and how complex network information can be communicated through an accessible interface. The technical development is therefore closely connected to the methodological development of the research itself.
 
 Through the process I have worked with:
 
@@ -102,12 +102,30 @@ Through the process I have worked with:
 - Cytoscape.js
 - JavaScript
 - HTML and CSS
-- Interactive data visualisation
+- Interactive data visualisation techniques
 - GitHub and GitHub Pages
 
 ## Current Limitations
 
 The network represents documented relationships identified through the current research process and should not be interpreted as a complete representation of the regional CSA system in the Berlin-Brandenburg area. The snowball approach means that actors connected to the initial starting point are more likely to have been identified, while less-connected or more distant actors may be underrepresented. The current analysis is also deliberately exploratory and top-level. More extensive community detection, longitudinal analysis, geographical analysis and additional data collection could provide a more detailed understanding of the network.
+
+The CSA BER-BRA Network Explorer is an evolving prototype and currently has several limitations:
+
+- No search functionality for actors.
+- No directed relationships. All relationships (directed and undirected) are currently displayed as undirected.
+- No integrated network statistics (e.g. Degree, Betweenness, Eigenvector, or PageRank).
+- No community detection or community-based colouring.
+- No customisable node sizing based on network metrics.
+- No detailed relationship information when selecting an edge.
+- No export of filtered networks or images.
+- No ability to save or reload network views.
+- No geographic filtering or map integration.
+- Limited actor profiles (e.g. websites, contact information, and supporting evidence are not yet included).
+- No timeline or temporal analysis of network changes.
+- No in-app editing of actors or relationships; updates must be made directly to the source data files.
+- Collaborative editing and cloud synchronisation are not currently supported.
+
+The explorer may be updated with additional features and expanded network data as the project develops. 
 
 ## Future Development
 
