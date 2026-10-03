@@ -3,6 +3,7 @@
 ### Mapping rural–urban food networks across Berlin-Brandenburg
 
 [**Launch Interactive Explorer →**](https://charlesellingham.github.io/CSA-BER-BRA-Network-Explorer/)
+Please note this only works on a computer. Mobile functionality is not yet available.
 
 [**Quick Start Guide →**](./CSA%20BER-BRA%20Network%20Explorer%20Quick%20Start%20Guide.pdf)
 
